@@ -308,7 +308,7 @@ def preprocess_data():
         print(f"  ⚠️ Warning: Could not find Q302 column")
     
     # Save the preprocessed data
-    output_filename = "EthiFinance ESG ratings - Universe - Preprocessed.xlsx"
+    output_filename = "EthiFinance ESG ratings - Universe - Raw Datas - Preprocessed.xlsx"
     output_path = os.path.join(SCRIPT_FOLDER, output_filename)
     
     print(f"\nSaving preprocessed data to: {output_filename}")

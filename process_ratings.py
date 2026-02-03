@@ -130,7 +130,7 @@ def process_ratings():
     
     # Note SOCIAL_final
     col_social_2025 = "Note SOCIAL - RESSOURCES HUMAINES_2025"
-    col_social_2024 = "Note SOCIAL_2024"
+    col_social_2024 = "Note SOCIAL - RESSOURCES HUMAINES_2024"
     
     if col_social_2025 in df_merged.columns and col_social_2024 in df_merged.columns:
         df_merged['Note SOCIAL_final'] = df_merged.apply(
